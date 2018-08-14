@@ -1,0 +1,13 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine",
+    "watch": "nodemon --exec jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  }
+}
