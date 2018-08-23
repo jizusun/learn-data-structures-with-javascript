@@ -1,18 +1,18 @@
 // unit tests
 // do not modify the below code
-describe('ArrayList', function() {
-  var ArrayList = require('../lib/ArrayList');
+describe('LinkedList', function() {
+  var LinkedList = require('../lib/LinkedList');
 
   const range = length => Array.apply(null, {length: length}).map(Number.call, Number);
   const abcRange = length => range(length).map( num => String.fromCharCode( 97 + num ) );
   let list;
   
   beforeEach( () => {
-    list = new ArrayList();
+    list = new LinkedList();
   })
   
   it('constructor', () => {
-    expect(list).toEqual(jasmine.any(ArrayList));
+    expect(list).toEqual(jasmine.any(LinkedList));
   });
   
   it('push', () => {

@@ -5,9 +5,10 @@
   "license": "MIT",
   "scripts": {
     "test": "jasmine",
-    "watch": "nodemon --exec jasmine"
+    "watch": "nodemon --inspect --ext js --exec jasmine"
   },
   "devDependencies": {
-    "jasmine": "^3.2.0"
+    "jasmine": "^3.2.0",
+    "nodemon": "^1.18.3"
   }
 }
