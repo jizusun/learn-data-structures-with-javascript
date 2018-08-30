@@ -6,9 +6,10 @@ Currently all unit tests are written in Jasmine, and originally written by [Bria
 
 * https://jizusun.github.io/four-semesters-of-computer-science-in-5-hours
 
-## Development
+### Development
 
 ```
 yarn
 yarn watch
 ```
+or use VSCode + [Jasmine Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-jasmine-test-adapter#overview)
