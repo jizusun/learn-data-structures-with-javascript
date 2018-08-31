@@ -8,8 +8,9 @@ Currently all unit tests are written in Jasmine, and originally written by [Bria
 
 ### Development
 
+Monitor unit tests running in your terminal 
 ```
 yarn
 yarn watch
 ```
-or use VSCode + [Jasmine Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-jasmine-test-adapter#overview)
+or monitor it in VSCode with [Jasmine Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-jasmine-test-adapter#overview)

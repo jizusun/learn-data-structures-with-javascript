@@ -1,10 +1,11 @@
+var LinkedList = require('../lib/LinkedList');
+
+const range = length => Array.apply(null, {length: length}).map(Number.call, Number);
+const abcRange = length => range(length).map( num => String.fromCharCode( 97 + num ) );
+
 // unit tests
 // do not modify the below code
 describe('LinkedList', function() {
-  var LinkedList = require('../lib/LinkedList');
-
-  const range = length => Array.apply(null, {length: length}).map(Number.call, Number);
-  const abcRange = length => range(length).map( num => String.fromCharCode( 97 + num ) );
   let list;
   
   beforeEach( () => {
@@ -52,5 +53,49 @@ describe('LinkedList', function() {
     expect(list.length).toEqual(24);
     expect(list.get(0)).toEqual('b');
   });
-  
 });
+
+xdescribe('LinkedList - delete', function() {
+  let list;
+  
+  beforeEach( () => {
+    list = new LinkedList();
+  })
+  
+  it('should delete nothing and return null, when there is 0 item but I want to delete the 1st one', () => {
+  });
+
+  it('should delete and return the first one, when there is 2 items and I want to delete the 1st one ', () => {
+  });
+
+  it('should delete nothing and return null, when there is 2 items but I want to delete the 3rd one (out of index)', () => {
+  });
+
+  it('should delete the last one and make the previous one to be tail, when there is 3 items and I want to delete the 3rd one', () => {
+  });
+
+  it('should delete the second one and make the only one left to be head and tail, when there is 2 items and I want to delete the 2nd one', () => {
+  });
+
+  it('should not decrease the length and return null, when no item has been deleted', ()=> {
+  });
+
+  it('should decrease the length and return the deleted value, when an item has been deleted', ()=> {
+  });
+
+});
+
+xdescribe('LinkedList - pop', () => {
+  let list;
+
+  beforeEach( () => {
+    list = new LinkedList();
+  })
+
+  it('should delete nothing and return null, when there is 0 item but I want to pop', () => {
+  });
+
+  it('should delete and return the only one, when there is only one item and I want to pop it', ()=>{
+  });
+
+})
