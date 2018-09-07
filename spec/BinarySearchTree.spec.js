@@ -7,7 +7,7 @@ describe('Binary Search Tree', function() {
     const tree = new Tree();
     nums.map( num => tree.add(num));
     const objs = tree.toObject();
-    render(objs, nums);
+    // render(objs, nums);
 
     expect(objs.value).toEqual(3);
     
